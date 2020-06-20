@@ -4,9 +4,9 @@ import path from 'path';
 const connection = knex({
     client: 'mysql2',
     connection: {
-        host : 'vistodatabase',
+        host : 'localhost:3306',
         user : 'root',
-        password : 'admin4infra',
+        password : 'root',
         database : 'ecoleta'
     },
     useNullAsDefault: true,
